@@ -20,6 +20,8 @@ This means using these vectors in place of words will give our model better unde
 |Region bounded - x (4 to 4.2) y (-0.5, -0.1)|
 
 <br/><br/>
+
+
 |![Region bounded 2](./images/xbounded_14_to_17.png)|
 |:--------------------:|
 |Region bounded - x (14 to 17) y (4, 7.5)|
