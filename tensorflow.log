@@ -1,0 +1,1257 @@
+Using default config.
+Using config: {'_device_fn': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000028D037705C0>, '_model_dir': './word2vec', '_save_checkpoints_steps': None, '_save_summary_steps': 100, '_global_id_in_cluster': 0, '_session_config': None, '_evaluation_master': '', '_keep_checkpoint_max': 5, '_service': None, '_num_ps_replicas': 0, '_train_distribute': None, '_keep_checkpoint_every_n_hours': 10000, '_task_type': 'worker', '_is_chief': True, '_tf_random_seed': None, '_num_worker_replicas': 1, '_log_step_count_steps': 100, '_task_id': 0, '_save_checkpoints_secs': 600, '_master': ''}
+Calling model_fn.
+Done calling model_fn.
+Create CheckpointSaverHook.
+Graph was finalized.
+Running local_init_op.
+Done running local_init_op.
+Saving checkpoints for 0 into ./word2vec\model.ckpt.
+loss = 219.0422, step = 0
+global_step/sec: 92.3089
+loss = 145.76869, step = 100 (1.052 sec)
+global_step/sec: 167.203
+loss = 143.89767, step = 200 (0.564 sec)
+global_step/sec: 184.837
+loss = 118.21118, step = 300 (0.541 sec)
+global_step/sec: 244.09
+loss = 112.7917, step = 400 (0.408 sec)
+global_step/sec: 238.364
+loss = 100.94644, step = 500 (0.421 sec)
+global_step/sec: 198.129
+loss = 98.11625, step = 600 (0.506 sec)
+global_step/sec: 203.182
+loss = 71.630936, step = 700 (0.490 sec)
+global_step/sec: 174.925
+loss = 63.12056, step = 800 (0.574 sec)
+global_step/sec: 199.625
+loss = 46.575397, step = 900 (0.499 sec)
+global_step/sec: 189.579
+loss = 64.59581, step = 1000 (0.527 sec)
+global_step/sec: 190.838
+loss = 55.67019, step = 1100 (0.526 sec)
+global_step/sec: 197.992
+loss = 52.67414, step = 1200 (0.504 sec)
+global_step/sec: 197.335
+loss = 48.793762, step = 1300 (0.507 sec)
+global_step/sec: 199.246
+loss = 51.924355, step = 1400 (0.502 sec)
+global_step/sec: 190.911
+loss = 85.52342, step = 1500 (0.524 sec)
+global_step/sec: 198.313
+loss = 81.16929, step = 1600 (0.507 sec)
+global_step/sec: 207.49
+loss = 60.957382, step = 1700 (0.479 sec)
+global_step/sec: 159.074
+loss = 33.53798, step = 1800 (0.631 sec)
+global_step/sec: 210.608
+loss = 27.918612, step = 1900 (0.489 sec)
+global_step/sec: 180.719
+loss = 62.274315, step = 2000 (0.539 sec)
+global_step/sec: 178.083
+loss = 42.902355, step = 2100 (0.562 sec)
+global_step/sec: 190.657
+loss = 51.811657, step = 2200 (0.524 sec)
+global_step/sec: 184.836
+loss = 38.40865, step = 2300 (0.542 sec)
+global_step/sec: 178.56
+loss = 30.142143, step = 2400 (0.560 sec)
+global_step/sec: 198.617
+loss = 46.397907, step = 2500 (0.503 sec)
+global_step/sec: 188.676
+loss = 41.007484, step = 2600 (0.531 sec)
+global_step/sec: 177.292
+loss = 49.765793, step = 2700 (0.564 sec)
+global_step/sec: 190.294
+loss = 25.169361, step = 2800 (0.526 sec)
+global_step/sec: 185.523
+loss = 22.543917, step = 2900 (0.540 sec)
+global_step/sec: 187.789
+loss = 20.166191, step = 3000 (0.532 sec)
+global_step/sec: 181.48
+loss = 31.343386, step = 3100 (0.552 sec)
+global_step/sec: 195.316
+loss = 38.27417, step = 3200 (0.511 sec)
+global_step/sec: 179.845
+loss = 37.224785, step = 3300 (0.557 sec)
+global_step/sec: 174.353
+loss = 25.059711, step = 3400 (0.574 sec)
+global_step/sec: 190.475
+loss = 36.104336, step = 3500 (0.525 sec)
+global_step/sec: 187.437
+loss = 18.930576, step = 3600 (0.534 sec)
+global_step/sec: 138.275
+loss = 30.732124, step = 3700 (0.723 sec)
+global_step/sec: 189.213
+loss = 16.095432, step = 3800 (0.528 sec)
+global_step/sec: 183.142
+loss = 17.337183, step = 3900 (0.547 sec)
+global_step/sec: 183.986
+loss = 16.223452, step = 4000 (0.543 sec)
+global_step/sec: 187.086
+loss = 24.138336, step = 4100 (0.536 sec)
+global_step/sec: 191.204
+loss = 24.361914, step = 4200 (0.522 sec)
+global_step/sec: 206.504
+loss = 19.017231, step = 4300 (0.485 sec)
+global_step/sec: 183.75
+loss = 12.47262, step = 4400 (0.543 sec)
+global_step/sec: 211.902
+loss = 10.774793, step = 4500 (0.470 sec)
+global_step/sec: 194.06
+loss = 17.921156, step = 4600 (0.517 sec)
+global_step/sec: 186.053
+loss = 8.612979, step = 4700 (0.538 sec)
+global_step/sec: 172.478
+loss = 14.181362, step = 4800 (0.578 sec)
+global_step/sec: 194.877
+loss = 10.601989, step = 4900 (0.515 sec)
+global_step/sec: 192.593
+loss = 11.123087, step = 5000 (0.519 sec)
+global_step/sec: 188.855
+loss = 8.910506, step = 5100 (0.529 sec)
+global_step/sec: 195.567
+loss = 8.439494, step = 5200 (0.512 sec)
+global_step/sec: 199.039
+loss = 18.416819, step = 5300 (0.500 sec)
+global_step/sec: 183.928
+loss = 11.883649, step = 5400 (0.545 sec)
+global_step/sec: 202.167
+loss = 6.602655, step = 5500 (0.494 sec)
+global_step/sec: 205.971
+loss = 7.6829367, step = 5600 (0.486 sec)
+global_step/sec: 176.553
+loss = 11.438457, step = 5700 (0.568 sec)
+global_step/sec: 205.638
+loss = 6.4203935, step = 5800 (0.500 sec)
+global_step/sec: 193.235
+loss = 10.099738, step = 5900 (0.502 sec)
+global_step/sec: 195.19
+loss = 10.158281, step = 6000 (0.514 sec)
+global_step/sec: 195.337
+loss = 7.6740913, step = 6100 (0.510 sec)
+global_step/sec: 192.074
+loss = 7.908682, step = 6200 (0.523 sec)
+global_step/sec: 202.484
+loss = 8.148656, step = 6300 (0.507 sec)
+global_step/sec: 177.266
+loss = 5.7863884, step = 6400 (0.550 sec)
+global_step/sec: 202.042
+loss = 6.680114, step = 6500 (0.493 sec)
+global_step/sec: 202.804
+loss = 5.315254, step = 6600 (0.493 sec)
+global_step/sec: 172.179
+loss = 6.563587, step = 6700 (0.583 sec)
+global_step/sec: 206.773
+loss = 7.119822, step = 6800 (0.482 sec)
+global_step/sec: 192.565
+loss = 8.685899, step = 6900 (0.519 sec)
+global_step/sec: 187.198
+loss = 8.041323, step = 7000 (0.536 sec)
+global_step/sec: 198.716
+loss = 5.2173615, step = 7100 (0.502 sec)
+global_step/sec: 195.544
+loss = 5.3275733, step = 7200 (0.513 sec)
+global_step/sec: 148.094
+loss = 5.027348, step = 7300 (0.675 sec)
+global_step/sec: 195.848
+loss = 5.8970194, step = 7400 (0.509 sec)
+global_step/sec: 194.61
+loss = 8.722934, step = 7500 (0.515 sec)
+global_step/sec: 210.732
+loss = 5.3444395, step = 7600 (0.473 sec)
+global_step/sec: 166.503
+loss = 5.371043, step = 7700 (0.602 sec)
+global_step/sec: 189.004
+loss = 5.269302, step = 7800 (0.530 sec)
+global_step/sec: 205.143
+loss = 14.40447, step = 7900 (0.485 sec)
+global_step/sec: 186.066
+loss = 5.411625, step = 8000 (0.539 sec)
+global_step/sec: 191.202
+loss = 4.7746, step = 8100 (0.521 sec)
+global_step/sec: 183.198
+loss = 10.504292, step = 8200 (0.548 sec)
+global_step/sec: 181.462
+loss = 5.1295867, step = 8300 (0.550 sec)
+global_step/sec: 186.178
+loss = 5.1777515, step = 8400 (0.538 sec)
+global_step/sec: 204.388
+loss = 4.9762564, step = 8500 (0.487 sec)
+global_step/sec: 228.079
+loss = 5.249175, step = 8600 (0.438 sec)
+global_step/sec: 199.657
+loss = 5.2135925, step = 8700 (0.503 sec)
+global_step/sec: 197.021
+loss = 5.4595766, step = 8800 (0.508 sec)
+global_step/sec: 138.08
+loss = 4.960496, step = 8900 (0.725 sec)
+global_step/sec: 181.943
+loss = 5.0608644, step = 9000 (0.547 sec)
+global_step/sec: 184.616
+loss = 5.0706186, step = 9100 (0.542 sec)
+global_step/sec: 195.883
+loss = 5.020673, step = 9200 (0.512 sec)
+global_step/sec: 173.208
+loss = 5.041314, step = 9300 (0.578 sec)
+global_step/sec: 207.639
+loss = 4.7473106, step = 9400 (0.496 sec)
+global_step/sec: 50.5942
+loss = 4.9273586, step = 9500 (1.963 sec)
+global_step/sec: 111.128
+loss = 5.279101, step = 9600 (0.899 sec)
+global_step/sec: 111.005
+loss = 5.0906124, step = 9700 (0.901 sec)
+global_step/sec: 123.415
+loss = 4.8260202, step = 9800 (0.810 sec)
+global_step/sec: 136.017
+loss = 5.130933, step = 9900 (0.736 sec)
+global_step/sec: 121.538
+loss = 5.1566687, step = 10000 (0.822 sec)
+global_step/sec: 139.32
+loss = 4.9427814, step = 10100 (0.716 sec)
+global_step/sec: 54.2543
+loss = 4.9874835, step = 10200 (1.845 sec)
+global_step/sec: 143.328
+loss = 5.020597, step = 10300 (0.699 sec)
+global_step/sec: 155.266
+loss = 4.6664777, step = 10400 (0.643 sec)
+global_step/sec: 69.7646
+loss = 5.014639, step = 10500 (1.445 sec)
+global_step/sec: 102.766
+loss = 4.8058524, step = 10600 (0.960 sec)
+global_step/sec: 170.61
+loss = 4.50743, step = 10700 (0.588 sec)
+global_step/sec: 201.497
+loss = 4.9939585, step = 10800 (0.497 sec)
+global_step/sec: 195.034
+loss = 4.867628, step = 10900 (0.510 sec)
+global_step/sec: 188.265
+loss = 4.9882483, step = 11000 (0.533 sec)
+global_step/sec: 186.461
+loss = 4.726513, step = 11100 (0.535 sec)
+global_step/sec: 187.183
+loss = 4.700209, step = 11200 (0.535 sec)
+global_step/sec: 202.803
+loss = 4.9168186, step = 11300 (0.493 sec)
+global_step/sec: 183.089
+loss = 4.7968206, step = 11400 (0.544 sec)
+global_step/sec: 190.486
+loss = 4.647745, step = 11500 (0.527 sec)
+global_step/sec: 206.665
+loss = 5.0733986, step = 11600 (0.482 sec)
+global_step/sec: 175.269
+loss = 4.7676353, step = 11700 (0.573 sec)
+global_step/sec: 207.171
+loss = 5.1197567, step = 11800 (0.481 sec)
+global_step/sec: 195.424
+loss = 4.810213, step = 11900 (0.512 sec)
+global_step/sec: 175.817
+loss = 4.9933543, step = 12000 (0.571 sec)
+global_step/sec: 197.187
+loss = 4.883853, step = 12100 (0.507 sec)
+global_step/sec: 193.711
+loss = 4.981879, step = 12200 (0.514 sec)
+global_step/sec: 177.003
+loss = 4.8773117, step = 12300 (0.567 sec)
+global_step/sec: 200.614
+loss = 5.01467, step = 12400 (0.496 sec)
+global_step/sec: 192.99
+loss = 5.006154, step = 12500 (0.518 sec)
+global_step/sec: 178.862
+loss = 4.961133, step = 12600 (0.561 sec)
+global_step/sec: 173.399
+loss = 4.889321, step = 12700 (0.576 sec)
+global_step/sec: 197.854
+loss = 4.9845166, step = 12800 (0.512 sec)
+global_step/sec: 199.933
+loss = 4.845536, step = 12900 (0.495 sec)
+global_step/sec: 173.347
+loss = 5.119792, step = 13000 (0.577 sec)
+global_step/sec: 201.162
+loss = 4.8889017, step = 13100 (0.497 sec)
+global_step/sec: 200.844
+loss = 4.851287, step = 13200 (0.496 sec)
+global_step/sec: 179.524
+loss = 5.0325794, step = 13300 (0.559 sec)
+global_step/sec: 206.877
+loss = 4.6378727, step = 13400 (0.481 sec)
+global_step/sec: 187.922
+loss = 4.777551, step = 13500 (0.532 sec)
+global_step/sec: 183.328
+loss = 4.90321, step = 13600 (0.548 sec)
+global_step/sec: 194.144
+loss = 5.1739297, step = 13700 (0.512 sec)
+global_step/sec: 186.904
+loss = 4.8178706, step = 13800 (0.537 sec)
+global_step/sec: 147.696
+loss = 4.861027, step = 13900 (0.678 sec)
+global_step/sec: 187.533
+loss = 4.8774056, step = 14000 (0.533 sec)
+global_step/sec: 187.017
+loss = 4.6615124, step = 14100 (0.535 sec)
+global_step/sec: 200.802
+loss = 4.6744323, step = 14200 (0.498 sec)
+global_step/sec: 171.662
+loss = 4.8550973, step = 14300 (0.583 sec)
+global_step/sec: 204.22
+loss = 4.7893806, step = 14400 (0.490 sec)
+global_step/sec: 195.85
+loss = 5.16931, step = 14500 (0.510 sec)
+global_step/sec: 184.305
+loss = 4.5962143, step = 14600 (0.544 sec)
+global_step/sec: 208.693
+loss = 5.0909495, step = 14700 (0.493 sec)
+global_step/sec: 193.854
+loss = 4.804959, step = 14800 (0.516 sec)
+global_step/sec: 184.89
+loss = 4.8939915, step = 14900 (0.527 sec)
+global_step/sec: 163.861
+loss = 4.844331, step = 15000 (0.608 sec)
+global_step/sec: 191.664
+loss = 4.857174, step = 15100 (0.524 sec)
+global_step/sec: 209.263
+loss = 4.4948454, step = 15200 (0.476 sec)
+global_step/sec: 172.047
+loss = 4.9365377, step = 15300 (0.584 sec)
+global_step/sec: 204.444
+loss = 4.405568, step = 15400 (0.486 sec)
+global_step/sec: 195.587
+loss = 4.8684483, step = 15500 (0.511 sec)
+global_step/sec: 169.045
+loss = 4.80398, step = 15600 (0.594 sec)
+global_step/sec: 204.101
+loss = 4.9322934, step = 15700 (0.488 sec)
+global_step/sec: 192.458
+loss = 5.0837655, step = 15800 (0.520 sec)
+global_step/sec: 182.57
+loss = 4.6799364, step = 15900 (0.550 sec)
+global_step/sec: 202.28
+loss = 4.735552, step = 16000 (0.492 sec)
+global_step/sec: 185.041
+loss = 4.78972, step = 16100 (0.542 sec)
+global_step/sec: 185.323
+loss = 4.79928, step = 16200 (0.540 sec)
+global_step/sec: 187.86
+loss = 4.867855, step = 16300 (0.532 sec)
+global_step/sec: 193.983
+loss = 4.84671, step = 16400 (0.516 sec)
+global_step/sec: 211.079
+loss = 5.1802893, step = 16500 (0.473 sec)
+global_step/sec: 169.941
+loss = 4.6347804, step = 16600 (0.588 sec)
+global_step/sec: 202.373
+loss = 4.5264864, step = 16700 (0.495 sec)
+global_step/sec: 199.591
+loss = 4.7693343, step = 16800 (0.499 sec)
+global_step/sec: 180.475
+loss = 4.895683, step = 16900 (0.556 sec)
+global_step/sec: 204.688
+loss = 4.888709, step = 17000 (0.487 sec)
+global_step/sec: 194.673
+loss = 4.714779, step = 17100 (0.514 sec)
+global_step/sec: 185.675
+loss = 4.7343273, step = 17200 (0.541 sec)
+global_step/sec: 185.769
+loss = 4.7363205, step = 17300 (0.536 sec)
+global_step/sec: 184.605
+loss = 4.723695, step = 17400 (0.543 sec)
+global_step/sec: 202.425
+loss = 4.464178, step = 17500 (0.493 sec)
+global_step/sec: 175.266
+loss = 4.9338493, step = 17600 (0.572 sec)
+global_step/sec: 201.373
+loss = 4.7191105, step = 17700 (0.511 sec)
+global_step/sec: 196.992
+loss = 4.8300033, step = 17800 (0.492 sec)
+global_step/sec: 185.573
+loss = 4.6469784, step = 17900 (0.540 sec)
+global_step/sec: 166.228
+loss = 5.075859, step = 18000 (0.602 sec)
+global_step/sec: 196.501
+loss = 4.7832403, step = 18100 (0.509 sec)
+global_step/sec: 206.008
+loss = 5.1485415, step = 18200 (0.485 sec)
+global_step/sec: 173.981
+loss = 4.8717184, step = 18300 (0.576 sec)
+global_step/sec: 207.245
+loss = 5.229922, step = 18400 (0.479 sec)
+global_step/sec: 191.188
+loss = 4.7108192, step = 18500 (0.523 sec)
+global_step/sec: 181.614
+loss = 4.737882, step = 18600 (0.552 sec)
+global_step/sec: 203.653
+loss = 4.986593, step = 18700 (0.490 sec)
+global_step/sec: 191.969
+loss = 4.845499, step = 18800 (0.521 sec)
+global_step/sec: 179.715
+loss = 4.6784415, step = 18900 (0.558 sec)
+global_step/sec: 193.084
+loss = 4.863285, step = 19000 (0.516 sec)
+global_step/sec: 189.854
+loss = 4.8373575, step = 19100 (0.529 sec)
+global_step/sec: 204.464
+loss = 4.618019, step = 19200 (0.487 sec)
+global_step/sec: 168.257
+loss = 4.817287, step = 19300 (0.596 sec)
+global_step/sec: 211.557
+loss = 5.053243, step = 19400 (0.471 sec)
+global_step/sec: 185.796
+loss = 4.566798, step = 19500 (0.538 sec)
+global_step/sec: 185.913
+loss = 5.0398474, step = 19600 (0.540 sec)
+global_step/sec: 192.761
+loss = 4.6625113, step = 19700 (0.517 sec)
+global_step/sec: 157.89
+loss = 5.0210743, step = 19800 (0.635 sec)
+global_step/sec: 204.282
+loss = 4.7101483, step = 19900 (0.488 sec)
+global_step/sec: 174.382
+loss = 4.58932, step = 20000 (0.575 sec)
+global_step/sec: 209.505
+loss = 4.8295903, step = 20100 (0.475 sec)
+global_step/sec: 177.173
+loss = 4.546439, step = 20200 (0.564 sec)
+global_step/sec: 193.661
+loss = 4.8616133, step = 20300 (0.548 sec)
+global_step/sec: 169.519
+loss = 4.79819, step = 20400 (0.560 sec)
+global_step/sec: 206.83
+loss = 4.753866, step = 20500 (0.482 sec)
+global_step/sec: 196.07
+loss = 4.7321978, step = 20600 (0.510 sec)
+global_step/sec: 170.417
+loss = 4.956025, step = 20700 (0.589 sec)
+global_step/sec: 180.872
+loss = 4.7729816, step = 20800 (0.553 sec)
+global_step/sec: 181.18
+loss = 4.3626966, step = 20900 (0.550 sec)
+global_step/sec: 176.633
+loss = 4.995287, step = 21000 (0.568 sec)
+global_step/sec: 187.618
+loss = 4.552882, step = 21100 (0.533 sec)
+global_step/sec: 180.849
+loss = 5.074109, step = 21200 (0.553 sec)
+global_step/sec: 178.591
+loss = 4.673294, step = 21300 (0.560 sec)
+global_step/sec: 196.474
+loss = 4.642464, step = 21400 (0.507 sec)
+global_step/sec: 194.494
+loss = 4.4993505, step = 21500 (0.514 sec)
+global_step/sec: 190.462
+loss = 4.6996737, step = 21600 (0.527 sec)
+global_step/sec: 176.84
+loss = 4.549287, step = 21700 (0.563 sec)
+global_step/sec: 192.813
+loss = 4.848237, step = 21800 (0.520 sec)
+global_step/sec: 200.679
+loss = 4.454296, step = 21900 (0.497 sec)
+global_step/sec: 167.079
+loss = 4.812639, step = 22000 (0.600 sec)
+global_step/sec: 198.409
+loss = 4.7869167, step = 22100 (0.503 sec)
+global_step/sec: 197.44
+loss = 4.627159, step = 22200 (0.506 sec)
+global_step/sec: 177.789
+loss = 4.901086, step = 22300 (0.565 sec)
+global_step/sec: 193.931
+loss = 4.4533076, step = 22400 (0.515 sec)
+global_step/sec: 196.82
+loss = 4.9154024, step = 22500 (0.509 sec)
+global_step/sec: 168.642
+loss = 4.909543, step = 22600 (0.592 sec)
+global_step/sec: 139.461
+loss = 4.3799963, step = 22700 (0.719 sec)
+global_step/sec: 90.5725
+loss = 4.4429865, step = 22800 (1.102 sec)
+global_step/sec: 130.253
+loss = 4.320406, step = 22900 (0.776 sec)
+global_step/sec: 94.8306
+loss = 4.3379726, step = 23000 (1.052 sec)
+global_step/sec: 49.8619
+loss = 4.657754, step = 23100 (2.000 sec)
+global_step/sec: 54.3843
+loss = 4.5592785, step = 23200 (1.845 sec)
+global_step/sec: 43.9526
+loss = 4.638099, step = 23300 (2.275 sec)
+global_step/sec: 121.39
+loss = 4.7021136, step = 23400 (0.819 sec)
+global_step/sec: 137.218
+loss = 4.794503, step = 23500 (0.727 sec)
+global_step/sec: 142.022
+loss = 4.277915, step = 23600 (0.707 sec)
+global_step/sec: 172.369
+loss = 4.7298203, step = 23700 (0.578 sec)
+global_step/sec: 179.44
+loss = 4.658224, step = 23800 (0.557 sec)
+global_step/sec: 142.925
+loss = 4.8781123, step = 23900 (0.699 sec)
+global_step/sec: 78.8509
+loss = 4.379222, step = 24000 (1.269 sec)
+global_step/sec: 95.1015
+loss = 4.808014, step = 24100 (1.052 sec)
+global_step/sec: 181.314
+loss = 4.711533, step = 24200 (0.552 sec)
+global_step/sec: 190.155
+loss = 4.539602, step = 24300 (0.526 sec)
+global_step/sec: 211.385
+loss = 4.6036844, step = 24400 (0.487 sec)
+global_step/sec: 249.55
+loss = 5.0015907, step = 24500 (0.401 sec)
+global_step/sec: 199.715
+loss = 5.0085583, step = 24600 (0.485 sec)
+global_step/sec: 199.502
+loss = 4.610065, step = 24700 (0.501 sec)
+global_step/sec: 141.522
+loss = 4.845117, step = 24800 (0.708 sec)
+global_step/sec: 200.564
+loss = 4.9795403, step = 24900 (0.498 sec)
+global_step/sec: 190.457
+loss = 4.440506, step = 25000 (0.524 sec)
+global_step/sec: 176.662
+loss = 4.647379, step = 25100 (0.568 sec)
+global_step/sec: 206.068
+loss = 4.451661, step = 25200 (0.499 sec)
+global_step/sec: 189.789
+loss = 4.62574, step = 25300 (0.511 sec)
+global_step/sec: 178.336
+loss = 4.2279615, step = 25400 (0.563 sec)
+global_step/sec: 172.816
+loss = 4.573622, step = 25500 (0.578 sec)
+global_step/sec: 173.478
+loss = 4.7830834, step = 25600 (0.577 sec)
+global_step/sec: 177.899
+loss = 4.613868, step = 25700 (0.576 sec)
+global_step/sec: 145.349
+loss = 4.408729, step = 25800 (0.675 sec)
+global_step/sec: 172.725
+loss = 4.2658944, step = 25900 (0.578 sec)
+global_step/sec: 189.567
+loss = 4.3512554, step = 26000 (0.526 sec)
+global_step/sec: 175.792
+loss = 4.6373305, step = 26100 (0.570 sec)
+global_step/sec: 187.756
+loss = 4.281152, step = 26200 (0.531 sec)
+global_step/sec: 183.489
+loss = 4.434921, step = 26300 (0.547 sec)
+global_step/sec: 207.637
+loss = 4.786336, step = 26400 (0.479 sec)
+global_step/sec: 165.325
+loss = 4.5778265, step = 26500 (0.607 sec)
+global_step/sec: 190.197
+loss = 4.420082, step = 26600 (0.525 sec)
+global_step/sec: 200.91
+loss = 4.5206614, step = 26700 (0.496 sec)
+global_step/sec: 167.367
+loss = 4.6438956, step = 26800 (0.599 sec)
+global_step/sec: 195.492
+loss = 4.689659, step = 26900 (0.512 sec)
+global_step/sec: 196.974
+loss = 4.631236, step = 27000 (0.506 sec)
+global_step/sec: 172.136
+loss = 4.53773, step = 27100 (0.583 sec)
+global_step/sec: 193.071
+loss = 4.240652, step = 27200 (0.516 sec)
+global_step/sec: 189.475
+loss = 4.4083014, step = 27300 (0.528 sec)
+global_step/sec: 174.709
+loss = 4.5989428, step = 27400 (0.574 sec)
+global_step/sec: 191.072
+loss = 4.325071, step = 27500 (0.521 sec)
+global_step/sec: 181.594
+loss = 4.469805, step = 27600 (0.553 sec)
+global_step/sec: 177.809
+loss = 4.572324, step = 27700 (0.562 sec)
+global_step/sec: 188.173
+loss = 4.5617948, step = 27800 (0.529 sec)
+global_step/sec: 184.286
+loss = 4.3517838, step = 27900 (0.546 sec)
+global_step/sec: 208.986
+loss = 4.540675, step = 28000 (0.491 sec)
+global_step/sec: 159.323
+loss = 4.238174, step = 28100 (0.614 sec)
+global_step/sec: 203.552
+loss = 4.7120395, step = 28200 (0.490 sec)
+global_step/sec: 191.189
+loss = 4.8701105, step = 28300 (0.525 sec)
+global_step/sec: 173.643
+loss = 4.225152, step = 28400 (0.576 sec)
+global_step/sec: 199.876
+loss = 4.5419197, step = 28500 (0.498 sec)
+global_step/sec: 190.609
+loss = 4.40102, step = 28600 (0.525 sec)
+global_step/sec: 179.559
+loss = 4.2894936, step = 28700 (0.559 sec)
+global_step/sec: 198.754
+loss = 4.602789, step = 28800 (0.501 sec)
+global_step/sec: 183.753
+loss = 4.35394, step = 28900 (0.544 sec)
+global_step/sec: 185.268
+loss = 4.2384987, step = 29000 (0.542 sec)
+global_step/sec: 193.202
+loss = 4.2419653, step = 29100 (0.516 sec)
+global_step/sec: 193.298
+loss = 4.4254055, step = 29200 (0.517 sec)
+global_step/sec: 190.619
+loss = 4.2296033, step = 29300 (0.527 sec)
+global_step/sec: 181.539
+loss = 4.766412, step = 29400 (0.552 sec)
+global_step/sec: 193.521
+loss = 4.415342, step = 29500 (0.517 sec)
+global_step/sec: 193.947
+loss = 4.3962393, step = 29600 (0.514 sec)
+global_step/sec: 171.562
+loss = 4.068568, step = 29700 (0.583 sec)
+global_step/sec: 191.681
+loss = 4.164095, step = 29800 (0.520 sec)
+global_step/sec: 186.268
+loss = 4.254559, step = 29900 (0.537 sec)
+global_step/sec: 174.071
+loss = 4.8206854, step = 30000 (0.576 sec)
+global_step/sec: 201.901
+loss = 4.252902, step = 30100 (0.493 sec)
+global_step/sec: 189.81
+loss = 4.5831203, step = 30200 (0.527 sec)
+global_step/sec: 179.963
+loss = 4.707793, step = 30300 (0.558 sec)
+global_step/sec: 187.76
+loss = 4.2392516, step = 30400 (0.531 sec)
+global_step/sec: 185.079
+loss = 4.0935307, step = 30500 (0.556 sec)
+global_step/sec: 176.719
+loss = 4.3984804, step = 30600 (0.552 sec)
+global_step/sec: 193.721
+loss = 4.293044, step = 30700 (0.515 sec)
+global_step/sec: 176.716
+loss = 4.315012, step = 30800 (0.568 sec)
+global_step/sec: 193.438
+loss = 4.74751, step = 30900 (0.523 sec)
+global_step/sec: 176.018
+loss = 4.56643, step = 31000 (0.562 sec)
+global_step/sec: 191.992
+loss = 4.6186504, step = 31100 (0.521 sec)
+global_step/sec: 200.221
+loss = 4.284095, step = 31200 (0.497 sec)
+global_step/sec: 168.564
+loss = 4.711227, step = 31300 (0.595 sec)
+global_step/sec: 191.414
+loss = 4.6175323, step = 31400 (0.521 sec)
+global_step/sec: 193.581
+loss = 4.193355, step = 31500 (0.517 sec)
+global_step/sec: 177.804
+loss = 4.5670147, step = 31600 (0.564 sec)
+global_step/sec: 197.482
+loss = 4.5361757, step = 31700 (0.505 sec)
+global_step/sec: 184.092
+loss = 4.4398193, step = 31800 (0.545 sec)
+global_step/sec: 184.593
+loss = 4.2585096, step = 31900 (0.543 sec)
+global_step/sec: 192.074
+loss = 4.1972084, step = 32000 (0.518 sec)
+global_step/sec: 175.49
+loss = 4.6270113, step = 32100 (0.572 sec)
+global_step/sec: 75.0072
+loss = 4.193196, step = 32200 (1.332 sec)
+global_step/sec: 183.883
+loss = 4.6333036, step = 32300 (0.542 sec)
+global_step/sec: 62.874
+loss = 4.7230244, step = 32400 (1.606 sec)
+global_step/sec: 39.6367
+loss = 4.667452, step = 32500 (2.510 sec)
+global_step/sec: 75.5568
+loss = 4.775876, step = 32600 (1.323 sec)
+global_step/sec: 123.517
+loss = 3.9751194, step = 32700 (0.809 sec)
+global_step/sec: 196.779
+loss = 4.2182255, step = 32800 (0.507 sec)
+global_step/sec: 181.933
+loss = 4.376574, step = 32900 (0.550 sec)
+global_step/sec: 149.085
+loss = 4.0777063, step = 33000 (0.673 sec)
+global_step/sec: 121.464
+loss = 4.392676, step = 33100 (0.824 sec)
+global_step/sec: 153.44
+loss = 4.1973906, step = 33200 (0.652 sec)
+global_step/sec: 148.991
+loss = 4.4606967, step = 33300 (0.670 sec)
+global_step/sec: 198.972
+loss = 4.047342, step = 33400 (0.504 sec)
+global_step/sec: 213.181
+loss = 4.442321, step = 33500 (0.468 sec)
+global_step/sec: 225.809
+loss = 4.3191814, step = 33600 (0.457 sec)
+global_step/sec: 66.404
+loss = 4.407193, step = 33700 (1.494 sec)
+global_step/sec: 134.371
+loss = 4.5072613, step = 33800 (0.743 sec)
+global_step/sec: 192.464
+loss = 4.1690216, step = 33900 (0.520 sec)
+global_step/sec: 206.394
+loss = 4.428464, step = 34000 (0.484 sec)
+global_step/sec: 251.96
+loss = 4.325076, step = 34100 (0.397 sec)
+global_step/sec: 253.108
+loss = 4.402973, step = 34200 (0.396 sec)
+global_step/sec: 213.243
+loss = 4.623605, step = 34300 (0.467 sec)
+global_step/sec: 195.833
+loss = 4.5906696, step = 34400 (0.511 sec)
+global_step/sec: 172.389
+loss = 4.1138525, step = 34500 (0.582 sec)
+global_step/sec: 210.718
+loss = 4.2751045, step = 34600 (0.473 sec)
+global_step/sec: 177.535
+loss = 4.190199, step = 34700 (0.565 sec)
+global_step/sec: 190.282
+loss = 4.700299, step = 34800 (0.526 sec)
+global_step/sec: 190.208
+loss = 4.661591, step = 34900 (0.524 sec)
+global_step/sec: 199.706
+loss = 4.3808227, step = 35000 (0.501 sec)
+global_step/sec: 192.967
+loss = 4.482503, step = 35100 (0.520 sec)
+global_step/sec: 193.382
+loss = 4.6071835, step = 35200 (0.516 sec)
+global_step/sec: 193.895
+loss = 4.373684, step = 35300 (0.517 sec)
+global_step/sec: 207.598
+loss = 4.3854876, step = 35400 (0.480 sec)
+global_step/sec: 181.936
+loss = 4.7692294, step = 35500 (0.552 sec)
+global_step/sec: 205.565
+loss = 4.341773, step = 35600 (0.484 sec)
+global_step/sec: 201.466
+loss = 4.443059, step = 35700 (0.512 sec)
+global_step/sec: 182.182
+loss = 4.219486, step = 35800 (0.535 sec)
+global_step/sec: 184.515
+loss = 4.1228228, step = 35900 (0.542 sec)
+global_step/sec: 189.488
+loss = 4.4883237, step = 36000 (0.528 sec)
+global_step/sec: 218.178
+loss = 4.2169013, step = 36100 (0.473 sec)
+global_step/sec: 164.45
+loss = 4.3094196, step = 36200 (0.593 sec)
+global_step/sec: 207.766
+loss = 4.4504547, step = 36300 (0.482 sec)
+global_step/sec: 195.067
+loss = 4.400425, step = 36400 (0.515 sec)
+global_step/sec: 193.525
+loss = 4.574503, step = 36500 (0.514 sec)
+global_step/sec: 196.234
+loss = 4.172398, step = 36600 (0.509 sec)
+global_step/sec: 194.059
+loss = 4.5690155, step = 36700 (0.515 sec)
+global_step/sec: 187.422
+loss = 4.261441, step = 36800 (0.534 sec)
+global_step/sec: 199.227
+loss = 4.21663, step = 36900 (0.516 sec)
+global_step/sec: 188.076
+loss = 4.2966175, step = 37000 (0.518 sec)
+global_step/sec: 215.962
+loss = 4.369, step = 37100 (0.462 sec)
+global_step/sec: 177.74
+loss = 4.3623476, step = 37200 (0.564 sec)
+global_step/sec: 195.817
+loss = 4.3276587, step = 37300 (0.511 sec)
+global_step/sec: 195.343
+loss = 4.367791, step = 37400 (0.511 sec)
+global_step/sec: 181.816
+loss = 4.4010286, step = 37500 (0.551 sec)
+global_step/sec: 208.062
+loss = 4.4955406, step = 37600 (0.479 sec)
+global_step/sec: 195.415
+loss = 4.0368414, step = 37700 (0.512 sec)
+global_step/sec: 152.579
+loss = 4.339487, step = 37800 (0.657 sec)
+global_step/sec: 193.541
+loss = 4.338789, step = 37900 (0.515 sec)
+global_step/sec: 196.087
+loss = 4.298517, step = 38000 (0.510 sec)
+global_step/sec: 188.06
+loss = 4.113285, step = 38100 (0.533 sec)
+global_step/sec: 195.65
+loss = 4.190111, step = 38200 (0.510 sec)
+global_step/sec: 194.402
+loss = 4.2009125, step = 38300 (0.516 sec)
+global_step/sec: 209.694
+loss = 4.141488, step = 38400 (0.477 sec)
+global_step/sec: 172.332
+loss = 4.330867, step = 38500 (0.580 sec)
+global_step/sec: 204.707
+loss = 4.695563, step = 38600 (0.488 sec)
+global_step/sec: 203.292
+loss = 4.1246204, step = 38700 (0.490 sec)
+global_step/sec: 175.458
+loss = 3.8952434, step = 38800 (0.572 sec)
+global_step/sec: 201.567
+loss = 4.0858965, step = 38900 (0.494 sec)
+global_step/sec: 192.237
+loss = 4.4393864, step = 39000 (0.520 sec)
+global_step/sec: 187.143
+loss = 3.8076653, step = 39100 (0.536 sec)
+global_step/sec: 192.749
+loss = 4.0801444, step = 39200 (0.519 sec)
+global_step/sec: 190.42
+loss = 4.403671, step = 39300 (0.525 sec)
+global_step/sec: 206.25
+loss = 4.315114, step = 39400 (0.483 sec)
+global_step/sec: 175.389
+loss = 3.9414885, step = 39500 (0.571 sec)
+global_step/sec: 200.008
+loss = 3.9983816, step = 39600 (0.501 sec)
+global_step/sec: 206.831
+loss = 4.484996, step = 39700 (0.481 sec)
+global_step/sec: 169.646
+loss = 4.0505743, step = 39800 (0.591 sec)
+global_step/sec: 205.627
+loss = 4.1443663, step = 39900 (0.500 sec)
+global_step/sec: 196.378
+loss = 4.525878, step = 40000 (0.494 sec)
+global_step/sec: 173.719
+loss = 3.967464, step = 40100 (0.577 sec)
+global_step/sec: 203.501
+loss = 4.1782475, step = 40200 (0.524 sec)
+global_step/sec: 181.725
+loss = 4.132639, step = 40300 (0.518 sec)
+global_step/sec: 188.417
+loss = 4.62653, step = 40400 (0.531 sec)
+global_step/sec: 174.628
+loss = 3.823213, step = 40500 (0.577 sec)
+global_step/sec: 186.453
+loss = 4.151063, step = 40600 (0.531 sec)
+global_step/sec: 55.6034
+loss = 4.5316315, step = 40700 (1.799 sec)
+global_step/sec: 129.945
+loss = 4.2840114, step = 40800 (0.771 sec)
+global_step/sec: 86.9488
+loss = 3.9955933, step = 40900 (1.149 sec)
+global_step/sec: 104.985
+loss = 4.345527, step = 41000 (0.954 sec)
+global_step/sec: 177.447
+loss = 4.210206, step = 41100 (0.561 sec)
+global_step/sec: 250.05
+loss = 4.1138287, step = 41200 (0.416 sec)
+global_step/sec: 230.026
+loss = 4.481363, step = 41300 (0.421 sec)
+global_step/sec: 211.166
+loss = 3.827125, step = 41400 (0.474 sec)
+global_step/sec: 165.087
+loss = 4.3393764, step = 41500 (0.605 sec)
+global_step/sec: 199.067
+loss = 4.055748, step = 41600 (0.501 sec)
+global_step/sec: 173.543
+loss = 4.211575, step = 41700 (0.578 sec)
+global_step/sec: 176.209
+loss = 3.8468156, step = 41800 (0.568 sec)
+global_step/sec: 143.745
+loss = 4.243355, step = 41900 (0.696 sec)
+global_step/sec: 113.851
+loss = 4.0194354, step = 42000 (0.882 sec)
+global_step/sec: 142.415
+loss = 4.2212157, step = 42100 (0.697 sec)
+global_step/sec: 201.752
+loss = 4.0615716, step = 42200 (0.494 sec)
+global_step/sec: 151.041
+loss = 4.214859, step = 42300 (0.664 sec)
+global_step/sec: 68.213
+loss = 4.227437, step = 42400 (1.466 sec)
+global_step/sec: 149.669
+loss = 4.0645566, step = 42500 (0.669 sec)
+global_step/sec: 53.6392
+loss = 3.9505372, step = 42600 (1.865 sec)
+global_step/sec: 100.451
+loss = 3.642562, step = 42700 (1.000 sec)
+global_step/sec: 27.1625
+loss = 3.4177017, step = 42800 (3.677 sec)
+global_step/sec: 38.4173
+loss = 3.8633237, step = 42900 (2.630 sec)
+global_step/sec: 68.6155
+loss = 4.003963, step = 43000 (1.432 sec)
+global_step/sec: 204.304
+loss = 4.1455936, step = 43100 (0.486 sec)
+global_step/sec: 193.683
+loss = 4.1390233, step = 43200 (0.519 sec)
+global_step/sec: 182.975
+loss = 4.2174397, step = 43300 (0.545 sec)
+global_step/sec: 192.321
+loss = 4.591261, step = 43400 (0.519 sec)
+global_step/sec: 68.8128
+loss = 4.270725, step = 43500 (1.454 sec)
+global_step/sec: 212.485
+loss = 4.4903607, step = 43600 (0.470 sec)
+global_step/sec: 204.318
+loss = 3.910987, step = 43700 (0.489 sec)
+global_step/sec: 215.627
+loss = 4.585064, step = 43800 (0.464 sec)
+global_step/sec: 216.76
+loss = 4.2983046, step = 43900 (0.461 sec)
+global_step/sec: 217.411
+loss = 4.2301874, step = 44000 (0.460 sec)
+global_step/sec: 217.376
+loss = 3.8355598, step = 44100 (0.460 sec)
+global_step/sec: 196.737
+loss = 3.7327785, step = 44200 (0.508 sec)
+global_step/sec: 212.858
+loss = 4.021575, step = 44300 (0.470 sec)
+global_step/sec: 247.331
+loss = 3.8201063, step = 44400 (0.406 sec)
+global_step/sec: 257.28
+loss = 4.2390094, step = 44500 (0.387 sec)
+global_step/sec: 249.952
+loss = 4.0835886, step = 44600 (0.400 sec)
+global_step/sec: 250.155
+loss = 4.265257, step = 44700 (0.400 sec)
+global_step/sec: 253.463
+loss = 4.174616, step = 44800 (0.410 sec)
+global_step/sec: 245.9
+loss = 4.0347376, step = 44900 (0.392 sec)
+global_step/sec: 260.871
+loss = 4.2174115, step = 45000 (0.382 sec)
+global_step/sec: 250.29
+loss = 3.9745479, step = 45100 (0.400 sec)
+global_step/sec: 249.971
+loss = 3.9856381, step = 45200 (0.400 sec)
+global_step/sec: 244.841
+loss = 4.036728, step = 45300 (0.408 sec)
+global_step/sec: 248.507
+loss = 4.164844, step = 45400 (0.403 sec)
+global_step/sec: 257.019
+loss = 4.1067934, step = 45500 (0.388 sec)
+global_step/sec: 249.729
+loss = 4.1940584, step = 45600 (0.400 sec)
+global_step/sec: 250.014
+loss = 4.095241, step = 45700 (0.400 sec)
+global_step/sec: 245.997
+loss = 4.519949, step = 45800 (0.407 sec)
+global_step/sec: 253.015
+loss = 3.9838018, step = 45900 (0.398 sec)
+global_step/sec: 250.902
+loss = 4.3453994, step = 46000 (0.396 sec)
+global_step/sec: 250.1
+loss = 4.0489798, step = 46100 (0.400 sec)
+global_step/sec: 249.882
+loss = 3.952502, step = 46200 (0.400 sec)
+global_step/sec: 257.092
+loss = 4.2173386, step = 46300 (0.389 sec)
+global_step/sec: 252.825
+loss = 3.8075252, step = 46400 (0.396 sec)
+global_step/sec: 250.304
+loss = 3.9841912, step = 46500 (0.400 sec)
+global_step/sec: 249.156
+loss = 4.4088364, step = 46600 (0.401 sec)
+global_step/sec: 250.589
+loss = 3.648665, step = 46700 (0.415 sec)
+global_step/sec: 236.114
+loss = 3.7764022, step = 46800 (0.410 sec)
+global_step/sec: 248.544
+loss = 3.811738, step = 46900 (0.401 sec)
+global_step/sec: 246.283
+loss = 3.867262, step = 47000 (0.405 sec)
+global_step/sec: 250.537
+loss = 4.214097, step = 47100 (0.415 sec)
+global_step/sec: 240.757
+loss = 4.1403527, step = 47200 (0.400 sec)
+global_step/sec: 259.887
+loss = 4.210619, step = 47300 (0.385 sec)
+global_step/sec: 245.017
+loss = 4.281773, step = 47400 (0.410 sec)
+global_step/sec: 245.58
+loss = 4.0013447, step = 47500 (0.405 sec)
+global_step/sec: 250.04
+loss = 4.388091, step = 47600 (0.400 sec)
+global_step/sec: 240.741
+loss = 3.5101101, step = 47700 (0.415 sec)
+global_step/sec: 260.808
+loss = 4.1670237, step = 47800 (0.383 sec)
+global_step/sec: 122.929
+loss = 3.6357515, step = 47900 (0.815 sec)
+global_step/sec: 234.001
+loss = 4.343442, step = 48000 (0.425 sec)
+global_step/sec: 235.768
+loss = 4.147168, step = 48100 (0.430 sec)
+global_step/sec: 121.983
+loss = 3.5503917, step = 48200 (0.815 sec)
+global_step/sec: 100.03
+loss = 4.104149, step = 48300 (1.001 sec)
+global_step/sec: 237.571
+loss = 3.9874625, step = 48400 (0.421 sec)
+global_step/sec: 178.72
+loss = 4.160084, step = 48500 (0.560 sec)
+global_step/sec: 232.812
+loss = 3.8058763, step = 48600 (0.428 sec)
+global_step/sec: 230.488
+loss = 4.147024, step = 48700 (0.435 sec)
+global_step/sec: 177.125
+loss = 3.6414356, step = 48800 (0.566 sec)
+global_step/sec: 230.785
+loss = 4.1780076, step = 48900 (0.432 sec)
+global_step/sec: 228.212
+loss = 4.1163936, step = 49000 (0.437 sec)
+global_step/sec: 188.156
+loss = 3.8165348, step = 49100 (0.533 sec)
+global_step/sec: 205.988
+loss = 3.7311416, step = 49200 (0.484 sec)
+global_step/sec: 222.028
+loss = 4.1212683, step = 49300 (0.451 sec)
+global_step/sec: 235.782
+loss = 4.001128, step = 49400 (0.422 sec)
+global_step/sec: 238.837
+loss = 3.9121385, step = 49500 (0.420 sec)
+global_step/sec: 148.888
+loss = 3.9500422, step = 49600 (0.673 sec)
+global_step/sec: 205.61
+loss = 4.0905094, step = 49700 (0.484 sec)
+global_step/sec: 226.688
+loss = 3.7877698, step = 49800 (0.441 sec)
+global_step/sec: 113.757
+loss = 3.763072, step = 49900 (0.882 sec)
+global_step/sec: 97.9448
+loss = 3.8633447, step = 50000 (1.018 sec)
+global_step/sec: 84.2422
+loss = 3.9056606, step = 50100 (1.191 sec)
+global_step/sec: 83.5494
+loss = 3.8512354, step = 50200 (1.198 sec)
+global_step/sec: 78.4798
+loss = 4.323666, step = 50300 (1.271 sec)
+global_step/sec: 93.6949
+loss = 3.550074, step = 50400 (1.067 sec)
+global_step/sec: 157.908
+loss = 3.9456615, step = 50500 (0.633 sec)
+global_step/sec: 226.027
+loss = 3.5411897, step = 50600 (0.442 sec)
+global_step/sec: 226.188
+loss = 3.8021817, step = 50700 (0.440 sec)
+global_step/sec: 223.266
+loss = 3.8814168, step = 50800 (0.448 sec)
+global_step/sec: 225.212
+loss = 4.299194, step = 50900 (0.446 sec)
+global_step/sec: 232.676
+loss = 3.8430333, step = 51000 (0.428 sec)
+global_step/sec: 232.896
+loss = 3.2598784, step = 51100 (0.429 sec)
+global_step/sec: 233.665
+loss = 3.640792, step = 51200 (0.444 sec)
+global_step/sec: 219.087
+loss = 3.8726099, step = 51300 (0.442 sec)
+global_step/sec: 209.704
+loss = 3.7975974, step = 51400 (0.478 sec)
+global_step/sec: 222.847
+loss = 4.093836, step = 51500 (0.449 sec)
+global_step/sec: 236.269
+loss = 4.201529, step = 51600 (0.421 sec)
+global_step/sec: 231.617
+loss = 4.118454, step = 51700 (0.432 sec)
+global_step/sec: 239.844
+loss = 3.9086978, step = 51800 (0.417 sec)
+global_step/sec: 237.498
+loss = 3.7467885, step = 51900 (0.421 sec)
+global_step/sec: 237.249
+loss = 3.6516523, step = 52000 (0.421 sec)
+global_step/sec: 248.707
+loss = 3.70439, step = 52100 (0.419 sec)
+global_step/sec: 233.133
+loss = 3.9908347, step = 52200 (0.412 sec)
+global_step/sec: 232.122
+loss = 3.7861362, step = 52300 (0.431 sec)
+global_step/sec: 223.436
+loss = 3.8447971, step = 52400 (0.448 sec)
+global_step/sec: 238.301
+loss = 3.7404857, step = 52500 (0.420 sec)
+global_step/sec: 240.399
+loss = 3.7599313, step = 52600 (0.416 sec)
+global_step/sec: 245.898
+loss = 3.368788, step = 52700 (0.409 sec)
+global_step/sec: 236.194
+loss = 3.956418, step = 52800 (0.423 sec)
+global_step/sec: 252.434
+loss = 3.6911678, step = 52900 (0.394 sec)
+global_step/sec: 246.61
+loss = 3.5729947, step = 53000 (0.405 sec)
+global_step/sec: 262.622
+loss = 4.15985, step = 53100 (0.381 sec)
+global_step/sec: 240.906
+loss = 3.5853024, step = 53200 (0.416 sec)
+global_step/sec: 261.113
+loss = 4.264632, step = 53300 (0.382 sec)
+global_step/sec: 259.857
+loss = 3.8569913, step = 53400 (0.385 sec)
+global_step/sec: 245.802
+loss = 4.183794, step = 53500 (0.422 sec)
+global_step/sec: 244.815
+loss = 3.5353212, step = 53600 (0.393 sec)
+global_step/sec: 241.947
+loss = 3.7817373, step = 53700 (0.415 sec)
+global_step/sec: 269.143
+loss = 4.047722, step = 53800 (0.370 sec)
+global_step/sec: 250.151
+loss = 4.3186436, step = 53900 (0.400 sec)
+global_step/sec: 254.62
+loss = 3.877786, step = 54000 (0.393 sec)
+global_step/sec: 256.662
+loss = 3.7354932, step = 54100 (0.390 sec)
+global_step/sec: 258.116
+loss = 3.9998746, step = 54200 (0.403 sec)
+global_step/sec: 250.513
+loss = 3.7509413, step = 54300 (0.384 sec)
+global_step/sec: 250.22
+loss = 3.956755, step = 54400 (0.400 sec)
+global_step/sec: 253.173
+loss = 3.5043921, step = 54500 (0.395 sec)
+global_step/sec: 258.603
+loss = 3.9625454, step = 54600 (0.387 sec)
+global_step/sec: 247.986
+loss = 3.7234318, step = 54700 (0.404 sec)
+global_step/sec: 249.699
+loss = 3.6886115, step = 54800 (0.399 sec)
+global_step/sec: 240.401
+loss = 4.4257708, step = 54900 (0.416 sec)
+global_step/sec: 233.984
+loss = 3.6794038, step = 55000 (0.427 sec)
+global_step/sec: 224.203
+loss = 4.1517677, step = 55100 (0.446 sec)
+global_step/sec: 213.613
+loss = 3.670408, step = 55200 (0.469 sec)
+global_step/sec: 239.006
+loss = 3.971222, step = 55300 (0.419 sec)
+global_step/sec: 276.922
+loss = 3.889872, step = 55400 (0.360 sec)
+global_step/sec: 249.746
+loss = 4.0278854, step = 55500 (0.400 sec)
+global_step/sec: 250.539
+loss = 3.7703595, step = 55600 (0.399 sec)
+global_step/sec: 241.843
+loss = 3.6275263, step = 55700 (0.415 sec)
+global_step/sec: 250.396
+loss = 3.7620769, step = 55800 (0.399 sec)
+global_step/sec: 257.947
+loss = 3.8951244, step = 55900 (0.386 sec)
+global_step/sec: 250.498
+loss = 3.4663076, step = 56000 (0.415 sec)
+global_step/sec: 249.725
+loss = 3.7892246, step = 56100 (0.385 sec)
+global_step/sec: 244.185
+loss = 3.7519178, step = 56200 (0.411 sec)
+global_step/sec: 101.016
+loss = 3.5534303, step = 56300 (0.989 sec)
+global_step/sec: 229.175
+loss = 3.9958255, step = 56400 (0.452 sec)
+global_step/sec: 165.199
+loss = 3.4274604, step = 56500 (0.592 sec)
+global_step/sec: 117.396
+loss = 3.3984396, step = 56600 (0.852 sec)
+global_step/sec: 127.229
+loss = 4.03405, step = 56700 (0.786 sec)
+global_step/sec: 85.9758
+loss = 3.7544906, step = 56800 (1.165 sec)
+global_step/sec: 91.7392
+loss = 3.7466648, step = 56900 (1.092 sec)
+global_step/sec: 83.2539
+loss = 4.0182934, step = 57000 (1.197 sec)
+global_step/sec: 84.3783
+loss = 3.9311347, step = 57100 (1.185 sec)
+global_step/sec: 82.8393
+loss = 4.074147, step = 57200 (1.210 sec)
+global_step/sec: 109.184
+loss = 4.030245, step = 57300 (0.915 sec)
+global_step/sec: 154.105
+loss = 3.5472412, step = 57400 (0.645 sec)
+global_step/sec: 258.103
+loss = 3.7111347, step = 57500 (0.387 sec)
+global_step/sec: 249.636
+loss = 3.5929105, step = 57600 (0.401 sec)
+global_step/sec: 259.341
+loss = 3.7609859, step = 57700 (0.386 sec)
+global_step/sec: 222.759
+loss = 3.328229, step = 57800 (0.450 sec)
+global_step/sec: 187.086
+loss = 3.8409572, step = 57900 (0.535 sec)
+global_step/sec: 223.032
+loss = 3.547147, step = 58000 (0.448 sec)
+global_step/sec: 81.7532
+loss = 3.6087663, step = 58100 (1.223 sec)
+global_step/sec: 111.504
+loss = 3.7146587, step = 58200 (0.896 sec)
+global_step/sec: 240.618
+loss = 3.7044933, step = 58300 (0.416 sec)
+global_step/sec: 168.396
+loss = 3.7791548, step = 58400 (0.596 sec)
+global_step/sec: 226.298
+loss = 3.5481987, step = 58500 (0.440 sec)
+global_step/sec: 243.352
+loss = 3.6381183, step = 58600 (0.411 sec)
+global_step/sec: 240.709
+loss = 4.0599866, step = 58700 (0.415 sec)
+global_step/sec: 114.963
+loss = 3.7667193, step = 58800 (0.872 sec)
+global_step/sec: 134.561
+loss = 3.412499, step = 58900 (0.741 sec)
+global_step/sec: 239.63
+loss = 3.4129515, step = 59000 (0.417 sec)
+global_step/sec: 246.481
+loss = 3.4188583, step = 59100 (0.406 sec)
+global_step/sec: 239.705
+loss = 3.6720269, step = 59200 (0.418 sec)
+global_step/sec: 253.913
+loss = 3.753258, step = 59300 (0.393 sec)
+global_step/sec: 250.249
+loss = 3.5606294, step = 59400 (0.400 sec)
+global_step/sec: 249.573
+loss = 3.916944, step = 59500 (0.401 sec)
+global_step/sec: 258.98
+loss = 4.124955, step = 59600 (0.386 sec)
+global_step/sec: 241.722
+loss = 3.311748, step = 59700 (0.415 sec)
+global_step/sec: 260.298
+loss = 3.6022024, step = 59800 (0.383 sec)
+global_step/sec: 249.238
+loss = 3.9044197, step = 59900 (0.401 sec)
+global_step/sec: 250.462
+loss = 3.785031, step = 60000 (0.399 sec)
+global_step/sec: 249.771
+loss = 3.50353, step = 60100 (0.400 sec)
+global_step/sec: 242.726
+loss = 3.7672095, step = 60200 (0.413 sec)
+global_step/sec: 258.322
+loss = 3.933147, step = 60300 (0.386 sec)
+global_step/sec: 240.285
+loss = 3.396902, step = 60400 (0.416 sec)
+global_step/sec: 240.902
+loss = 3.7134619, step = 60500 (0.415 sec)
+global_step/sec: 250.621
+loss = 3.641911, step = 60600 (0.399 sec)
+global_step/sec: 245.778
+loss = 3.6648455, step = 60700 (0.408 sec)
+global_step/sec: 263.793
+loss = 3.6440418, step = 60800 (0.378 sec)
+global_step/sec: 250.289
+loss = 3.3224409, step = 60900 (0.400 sec)
+global_step/sec: 249.673
+loss = 3.8215337, step = 61000 (0.416 sec)
+global_step/sec: 243.202
+loss = 3.6100967, step = 61100 (0.396 sec)
+global_step/sec: 242.884
+loss = 3.657351, step = 61200 (0.414 sec)
+global_step/sec: 246.046
+loss = 3.7396348, step = 61300 (0.405 sec)
+global_step/sec: 259.019
+loss = 3.5132053, step = 61400 (0.385 sec)
+global_step/sec: 249.997
+loss = 3.4494138, step = 61500 (0.444 sec)
+global_step/sec: 225.23
+loss = 3.7313235, step = 61600 (0.400 sec)
+global_step/sec: 250.267
+loss = 3.3610954, step = 61700 (0.400 sec)
+global_step/sec: 247.148
+loss = 3.3804398, step = 61800 (0.406 sec)
+global_step/sec: 252.472
+loss = 3.9304013, step = 61900 (0.395 sec)
+global_step/sec: 250.428
+loss = 3.8063679, step = 62000 (0.399 sec)
+global_step/sec: 249.906
+loss = 3.7411597, step = 62100 (0.400 sec)
+global_step/sec: 249.366
+loss = 3.6214728, step = 62200 (0.401 sec)
+Saving checkpoints for 62272 into ./word2vec\model.ckpt.
+Loss for final step: 3.9136415.
+Calling model_fn.
